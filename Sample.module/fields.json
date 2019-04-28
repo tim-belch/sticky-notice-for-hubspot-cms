@@ -1,0 +1,41 @@
+[ {
+  "id" : "e56dd32d-7d01-8160-2333-412e036182bb",
+  "name" : "background",
+  "type" : "color",
+  "label" : "background",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#6500a9",
+    "opacity" : 100
+  }
+}, {
+  "id" : "05b88a64-da48-747a-8cce-2dd1c7a354e9",
+  "name" : "dismiss_icon_color",
+  "type" : "color",
+  "label" : "Dismiss Icon Color",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+}, {
+  "id" : "ad088c6c-9f82-7d15-118d-409c013689cc",
+  "name" : "main_content",
+  "type" : "richtext",
+  "label" : "Main Content",
+  "sortable" : false,
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "default" : "<a href=\"#\" style=\"color: #40fff0;\">Easter Sale</a> &nbsp; <span style=\"color: white;\">now through Saturday. 35% off all Power Tools and Sporks.</span>"
+} ]

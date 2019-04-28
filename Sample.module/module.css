@@ -1,0 +1,28 @@
+.belch-sticky-notice {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  z-index: 214748363;
+  height: 100px;
+  display:none;
+}
+.belch-sticky-notice .belchsn-main-content {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.belch-sticky-notice .dismiss{
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
